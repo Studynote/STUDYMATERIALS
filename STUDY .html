@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SFI STUDY MATERIAL HUB</title>
+<style>
+/* ---------- BODY & BACKGROUND ---------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ---------- HEADER & NAV ---------- */
+header {
+    background: rgba(30,60,114,0.9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- HERO ---------- */
+.hero {
+    background: rgba(255,255,255,0.9);
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+    background: rgba(255,255,255,0.9);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ---------- SEMESTER ---------- */
+.semester {
+    margin-bottom: 30px;
+}
+.semester h3 {
+    text-align: left;
+    color: #1e3c72;
+    margin-bottom: 15px;
+}
+
+/* ---------- CARDS ---------- */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #ED2939;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card a:hover {
+    background: #16325c;
+}
+
+/* ---------- INPUT & BUTTON ---------- */
+input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background: rgba(30,60,114,0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* ---------- MOBILE RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- ---------- HEADER ---------- -->
+<header>
+    <h1>SFI STUDY MATERIAL HUB</h1>
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#materials">Materials</a>
+    </nav>
+</header>
+
+<!-- ---------- HERO ---------- -->
+<div class="hero">
+    <h2>Learn • Share • Succeed</h2>
+    <p>A simple platform for college students to access and share study materials.</p>
+    <img src="https://via.placeholder.com/600x300" alt="College Image">
+</div>
+
+<!-- ---------- INTRODUCTION ---------- -->
+<div class="section" id="intro">
+    <h2>Introduction</h2>
+    <p>
+        This awesome website is brought to you by SFI Ezhukone Poly, your one-stop hub for college study notes, PDFs, and resources -all subject-wise and accessible to everyone, across all semesters. 
+Aromal Krishnan(S6) and Vaishnav Raj(S4) totally nailed it with this creation.
+    </p>
+</div>
+
+<!-- ---------- STUDY MATERIALS ---------- -->
+<div class="section" id="materials">
+    <h2>Study Materials</h2>
+
+    <!-- Semester 1 & 2 Combined -->
+    <div class="semester" id="semester1_2">
+        <h3>Semester 1 & 2</h3>
+        <div class="cards">
+            <!-- Semester 1 -->
+            <div class="card">
+                <h4>general subjects</h4>
+                <a href="https://drive.google.com/drive/folders/1jcZvd2qcCkoXw7iE7lFlfVVG_DPWf_-t"_blank">Download PDF</a>
+            </div>
+                        <!-- Semester 2 -->
+            <div class="card">
+                <h4>Computer Hardware Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1Ipbab8H_wNUIvyPmB1m5YbiGluLwouN-">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Mechanical Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1ugrZdlkCWM7x6K4FgbYtKAWH8mOOY2ZF"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Electronics & Communications</h4>
+                <a href="https://drive.google.com/drive/folders/1ugrZdlkCWM7x6K4FgbYtKAWH8mOOY2ZF" target="_blank">Download PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester 3 -->
+    <div class="semester" id="semester3">
+        <h3>Semester 3</h3>
+        <div class="cards">
+            <div class="card">
+                <h4>Computer Hardware Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/16zvYoUatMZyilktdH7pt--uVSAguQq8M"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Mechanical Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1x0ueiPuPCIms3j3wF_670HVnYAkB2JxQ"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Electronics & Communications</h4>
+                <a href="https://drive.google.com/drive/folders/1x0ueiPuPCIms3j3wF_670HVnYAkB2JxQ"_blank">Download PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester 4 -->
+    <div class="semester" id="semester4">
+        <h3>Semester 4</h3>
+        <div class="cards">
+            <div class="card">
+                <h4>Computer Hardware Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1b_OpCApzbupsKahyDpqI3R1-_GW5Bn25"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Mechanical Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1pXtuTQ33D8LHQ025gl5kN7TmxKeZ071a"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Electronics & Communications</h4>
+                <a href="https://drive.google.com/drive/folders/1pXtuTQ33D8LHQ025gl5kN7TmxKeZ071a"_blank">Download PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester 5 -->
+    <div class="semester" id="semester5">
+        <h3>Semester 5</h3>
+        <div class="cards">
+            <div class="card">
+                <h4>Computer Hardware Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1CL-iLxChbQ0b8k4xxhg-XHCMkJhJztty"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Mechanical Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1rqBdgRCKbvc_zIhyaZGSYnNiBftRNVS5" target="_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Electronics & Communications</h4>
+                <a href="https://drive.google.com/drive/folders/15Ju1iJpu9ZTGoaNU7HkPCPZu7YtNn5BA" target="_blank">Download PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester 6 -->
+    <div class="semester" id="semester6">
+        <h3>Semester 6</h3>
+        <div class="cards">
+            <div class="card">
+                <h4>Computer Hardware Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/1psNQU6195MnPibHh7HDxNNQE_yd2tz2f"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Mechanical Engineering</h4>
+                <a href="https://drive.google.com/drive/folders/15Ju1iJpu9ZTGoaNU7HkPCPZu7YtNn5BA" target="_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>Electronics & Communications</h4>
+                <a href="https://drive.google.com/drive/folders/1CvVLxMQPom6wuvce_ih6Oxg-zH2PnPmQ"_blank">Download PDF</a>
+            </div>
+            <div class="card">
+                <h4>S6 Common Subjects</h4>
+                <a href=https://drive.google.com/drive/folders/1CvVLxMQPom6wuvce_ih6Oxg-zH2PnPmQ"_blank">Download PDF</a>
+
+            </div>
+        </div>
+    </div>
+
+ <!-- others -->
+    <div class="others " id="others ">
+        <h3>others </h3>
+        <div class="cards">
+            <div class="card">
+                <h4>Lab Manual</h4>
+                <p>UPLOAD SOOON</p>
+
+            </div>
+            <div class="card">
+                <h4>Previous Yr Qn</h4>
+                <p>UPLOAD SOOON</p>
+
+            
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------- FOOTER ---------- -->
+<footer>
+    <p>©SFI EZHUKONE POLY</p>
+    <p>Website designed and created by: <strong>VAISHNAV RAJ (S4 CHE) & AROMAL KRISHNAN(S6 EC)</strong></p>
+    <p>Government Polytechnic College Ezhukone</p>
+</footer>
+
+<!-- ---------- JAVASCRIPT SEARCH ---------- -->
+<script>
+function searchNotes() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let cards = document.getElementsByClassName("card");
+
+    for (let i = 0; i < cards.length; i++) {
+        let subjectText = cards[i].innerText.toLowerCase();
+        if (subjectText.includes(input)) {
+            cards[i].style.display = "block";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
